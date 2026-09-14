@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notif_subtask_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="24dp"
+    android:paddingStart="24dp"
+    android:paddingTop="4dp"
+    android:paddingRight="4dp"
+    android:paddingEnd="4dp"
+    android:paddingBottom="4dp">
+
+    <!-- Subtask Checkbox Target -->
+    <ImageView
+        android:id="@+id/notif_subtask_checkbox"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:contentDescription="Toggle subtask"
+        android:padding="3dp"
+        android:src="@drawable/ic_notif_checkbox_unchecked" />
+
+    <!-- Subtask Title -->
+    <TextView
+        android:id="@+id/notif_subtask_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#E8EDE6"
+        android:textSize="13sp" />
+
+</LinearLayout>

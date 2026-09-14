@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+
+    <!-- Curving main sprig stem -->
+    <path
+        android:pathData="M16,30 C16,22 13,14 6,5"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.9"/>
+
+    <!-- Branchlet to right -->
+    <path
+        android:pathData="M14,18 C18,15 22,14 26,11"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.85"/>
+
+    <!-- Terminal leaf at top-left -->
+    <path
+        android:pathData="M6,5 C3,2 8,1 12,6 C10,9 6,8 6,5 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.9"/>
+
+    <!-- Terminal leaf at top-right -->
+    <path
+        android:pathData="M26,11 C28,8 24,6 20,10 C21,13 25,13 26,11 Z"
+        android:fillColor="#FF5E745A"
+        android:fillAlpha="0.85"/>
+
+    <!-- Mid-stem leaf (left) -->
+    <path
+        android:pathData="M13,12 C9,9 12,6 16,10 C15,13 11,13 13,12 Z"
+        android:fillColor="#FF859C80"
+        android:fillAlpha="0.9"/>
+
+    <!-- Mid-stem leaf (right) -->
+    <path
+        android:pathData="M15,22 C19,19 22,21 21,24 C17,26 14,24 15,22 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.9"/>
+
+    <!-- Micro bud accent -->
+    <path
+        android:pathData="M10,9 A1,1 0 1,0 10,11 A1,1 0 1,0 10,9 Z M21,16 A1,1 0 1,0 21,18 A1,1 0 1,0 21,16 Z"
+        android:fillColor="#FF5E745A"
+        android:fillAlpha="0.8"/>
+</vector>

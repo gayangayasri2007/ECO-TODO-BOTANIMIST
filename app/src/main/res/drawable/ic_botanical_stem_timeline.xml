@@ -1,0 +1,98 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="140dp"
+    android:viewportWidth="28"
+    android:viewportHeight="140">
+
+    <!-- Undulating central organic stem -->
+    <path
+        android:pathData="M14,0 C16,24 12,48 14,72 C16,96 12,120 14,140"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.8"/>
+
+    <!-- Leaf 1 (Right, y=14..22) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M14,16 C17,17 19,16 21,14"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M20,15 C23,11 27,10 27,14 C27,18 23,20 19,18 C18,17 19,16 20,15 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.85"/>
+
+    <!-- Leaf 2 (Left, y=36..44) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M13,38 C10,39 8,38 6,36"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M7,37 C4,33 1,32 1,36 C1,40 5,42 9,40 C10,39 9,38 7,37 Z"
+        android:fillColor="#FF5E745A"
+        android:fillAlpha="0.8"/>
+
+    <!-- Leaf 3 (Right, y=60..68) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M14,62 C17,63 19,62 21,60"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M20,61 C23,57 27,56 27,60 C27,64 23,66 19,64 C18,63 19,62 20,61 Z"
+        android:fillColor="#FF859C80"
+        android:fillAlpha="0.85"/>
+
+    <!-- Leaf 4 (Left, y=84..92) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M13,86 C10,87 8,86 6,84"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M7,85 C4,81 1,80 1,84 C1,88 5,90 9,88 C10,87 9,86 7,85 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.85"/>
+
+    <!-- Leaf 5 (Right, y=108..116) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M14,110 C17,111 19,110 21,108"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M20,109 C23,105 27,104 27,108 C27,112 23,114 19,112 C18,111 19,110 20,109 Z"
+        android:fillColor="#FF5E745A"
+        android:fillAlpha="0.8"/>
+
+    <!-- Leaf 6 (Left, y=128..136) -->
+    <!-- Petiole -->
+    <path
+        android:pathData="M13,130 C10,131 8,130 6,128"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.0"
+        android:strokeLineCap="round"/>
+    <!-- Blade -->
+    <path
+        android:pathData="M7,129 C4,125 1,124 1,128 C1,132 5,134 9,132 C10,131 9,130 7,129 Z"
+        android:fillColor="#FF859C80"
+        android:fillAlpha="0.85"/>
+
+    <!-- Micro bud accents on stem nodes -->
+    <path
+        android:pathData="M14,28 A1.5,1.5 0 1,0 14,31 A1.5,1.5 0 1,0 14,28 Z M14,76 A1.5,1.5 0 1,0 14,79 A1.5,1.5 0 1,0 14,76 Z M14,122 A1.5,1.5 0 1,0 14,125 A1.5,1.5 0 1,0 14,122 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.7"/>
+</vector>

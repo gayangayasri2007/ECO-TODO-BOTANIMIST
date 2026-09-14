@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Eco Todo: Botanimist</string>
+    <string name="widget_today_label">Today\'s Tasks</string>
+    <string name="widget_today_desc">View today\'s tasks, checklist, and progress directly from your home screen.</string>
+    <string name="widget_pinned_label">Pinned Tasks</string>
+    <string name="widget_pinned_desc">Quick access to your important pinned tasks.</string>
+    <string name="widget_weekly_stats_label">Weekly Stats</string>
+    <string name="widget_weekly_stats_desc">Track your weekly completed tasks and streak progress.</string>
+</resources>

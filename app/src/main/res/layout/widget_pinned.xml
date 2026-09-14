@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_pinned_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget_card">
+
+    <!-- Botanical background silhouette aligned at bottom-end -->
+    <ImageView
+        android:id="@+id/widget_pinned_bg_silhouette"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="bottom|end"
+        android:scaleType="fitEnd"
+        android:alpha="0.28"
+        android:src="@drawable/img_bottom_leaf_leaf_silhouete"
+        android:contentDescription="Botanical background accent" />
+
+    <!-- Foreground Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginEnd="6dp"
+                android:src="@drawable/ic_botanical_widget_accent"
+                android:alpha="0.85"
+                android:contentDescription="Botanical Accent" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="📌 PINNED"
+                android:textColor="@color/widget_text_terracotta"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.08" />
+
+            <TextView
+                android:id="@+id/widget_pinned_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_widget_chip"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:text="0 active"
+                android:textColor="@color/widget_text_accent"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/widget_divider" />
+
+        <TextView
+            android:id="@+id/widget_pinned_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_widget_item_banner"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="No pinned tasks"
+            android:textColor="@color/widget_text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_pinned_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_widget_item_banner"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/widget_text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_pinned_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_widget_item_banner"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/widget_text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_pinned_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Tap to manage pinned tasks"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+</FrameLayout>

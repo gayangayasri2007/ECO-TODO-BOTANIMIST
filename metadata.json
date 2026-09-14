@@ -1,0 +1,6 @@
+{
+  "name": "Eco Todo: Botanimist",
+  "description": "Mindful botanical daily task planner and timeline organizer with earthy sage aesthetics, widget integration, recurring tasks, and habit stats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,104 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="180dp"
+    android:viewportWidth="180"
+    android:viewportHeight="180">
+
+    <!-- Ground shadow ellipse -->
+    <path
+        android:pathData="M90,172 C65,172 50,168 50,166 C50,164 65,160 90,160 C115,160 130,164 130,166 C130,168 115,172 90,172 Z"
+        android:fillColor="#FF738A6E"
+        android:fillAlpha="0.12"/>
+
+    <!-- Left tall stem emerging from vase -->
+    <path
+        android:pathData="M84,90 C78,65 64,40 44,22"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"/>
+    <!-- Center tall stem emerging from vase -->
+    <path
+        android:pathData="M90,88 C90,60 90,35 90,10"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"/>
+    <!-- Right tall stem emerging from vase -->
+    <path
+        android:pathData="M96,90 C102,65 116,40 136,22"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"/>
+
+    <!-- Left stem leaves -->
+    <path
+        android:pathData="M44,22 C34,14 46,10 52,18 C54,24 48,28 44,22 Z"
+        android:fillColor="#FF738A6E"/>
+    <path
+        android:pathData="M54,34 C44,26 56,22 62,30 C64,36 58,40 54,34 Z"
+        android:fillColor="#FF5E745A"/>
+    <path
+        android:pathData="M66,50 C54,42 66,36 74,44 C76,52 68,56 66,50 Z"
+        android:fillColor="#FF859C80"/>
+    <path
+        android:pathData="M76,68 C64,62 74,54 82,62 C84,70 78,74 76,68 Z"
+        android:fillColor="#FF738A6E"/>
+
+    <!-- Center stem leaves -->
+    <path
+        android:pathData="M90,10 C80,4 100,4 90,10 Z"
+        android:fillColor="#FF738A6E"/>
+    <path
+        android:pathData="M88,26 C76,18 82,32 88,26 Z M92,26 C104,18 98,32 92,26 Z"
+        android:fillColor="#FF859C80"/>
+    <path
+        android:pathData="M88,44 C74,36 80,50 88,44 Z M92,44 C106,36 100,50 92,44 Z"
+        android:fillColor="#FF738A6E"/>
+    <path
+        android:pathData="M88,64 C74,56 80,70 88,64 Z M92,64 C106,56 100,70 92,64 Z"
+        android:fillColor="#FF5E745A"/>
+
+    <!-- Right stem leaves -->
+    <path
+        android:pathData="M136,22 C146,14 134,10 128,18 C126,24 132,28 136,22 Z"
+        android:fillColor="#FF738A6E"/>
+    <path
+        android:pathData="M126,34 C136,26 124,22 118,30 C116,36 122,40 126,34 Z"
+        android:fillColor="#FF5E745A"/>
+    <path
+        android:pathData="M114,50 C126,42 114,36 106,44 C104,52 112,56 114,50 Z"
+        android:fillColor="#FF859C80"/>
+    <path
+        android:pathData="M104,68 C116,62 106,54 98,62 C96,70 102,74 104,68 Z"
+        android:fillColor="#FF738A6E"/>
+
+    <!-- Ceramic Vase Body (Warm Glaze) -->
+    <path
+        android:pathData="M72,90 L108,90 C114,90 118,94 116,102 L124,142 C126,156 116,166 102,166 L78,166 C64,166 54,156 56,142 L64,102 C66,94 70,90 72,90 Z"
+        android:fillColor="#FFEAE3D2"/>
+
+    <!-- Ceramic Vase Outline & Structure -->
+    <path
+        android:pathData="M72,90 L108,90 C114,90 118,94 116,102 L124,142 C126,156 116,166 102,166 L78,166 C64,166 54,156 56,142 L64,102 C66,94 70,90 72,90 Z"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round"/>
+
+    <!-- Vase Neck Rim Detail -->
+    <path
+        android:pathData="M70,90 C70,88 78,86 90,86 C102,86 110,88 110,90 C110,92 102,94 90,94 C78,94 70,92 70,90 Z"
+        android:fillColor="#FFDBD1BE"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.5"/>
+
+    <!-- Vase Decorative Textured Band -->
+    <path
+        android:pathData="M62,118 C70,122 110,122 118,118"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"/>
+    <path
+        android:pathData="M59,132 C68,136 112,136 121,132"
+        android:strokeColor="#FF738A6E"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.6"/>
+</vector>

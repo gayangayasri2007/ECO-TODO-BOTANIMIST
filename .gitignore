@@ -1,0 +1,76 @@
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+*.so
+*.dll
+*.exe
+*.a
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build outputs
+dist/
+build/
+target/
+.gradle/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.sublime-workspace
+.pytest_cache/
+.mypy_cache/
+
+# Android/Kotlin specific
+*.apk
+*.aar
+*.dex
+local.properties
+captures/
+.externalNativeBuild
+.gradle
+build/
+*.keystore
+*.jks
+
+# Kotlin specific
+*.kotlin_metadata
+*.kotlin_built

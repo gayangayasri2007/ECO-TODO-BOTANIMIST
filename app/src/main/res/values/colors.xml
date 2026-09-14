@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Base Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Earthy Sage Light Palette for Widgets -->
+    <color name="widget_bg">#F2F3F1</color>
+    <color name="widget_border">#738A6E</color>
+    <color name="widget_divider">#D3DDD0</color>
+    
+    <!-- Item Banners: Tinted sage colors with translucency to let botanical silhouette show through -->
+    <!-- Semi-translucent light sage-tinted banner: ~82% opacity (D2) #D2E4EAE1 -->
+    <color name="widget_banner_bg">#D2E4EAE1</color>
+    <color name="widget_banner_border">#B8C8B5</color>
+
+    <!-- Semi-translucent completed banner: ~80% opacity (CC) #CCDCE4D9 -->
+    <color name="widget_banner_completed_bg">#CCDCE4D9</color>
+    <color name="widget_banner_completed_border">#B2C2AF</color>
+
+    <!-- Semi-translucent subtask banner: ~85% opacity (D9) #D9DFE6DC -->
+    <color name="widget_subtask_bg">#D9DFE6DC</color>
+    <color name="widget_subtask_border">#BDCCBA</color>
+    
+    <!-- Badges, Chips & Controls -->
+    <color name="widget_chip_bg">#E1E8DF</color>
+    <color name="widget_chip_border">#BACAB6</color>
+    <color name="widget_primary_btn">#738A6E</color>
+    
+    <!-- Text Colors -->
+    <color name="widget_text_primary">#243328</color>
+    <color name="widget_text_secondary">#5F7061</color>
+    <color name="widget_text_tertiary">#869688</color>
+    <color name="widget_text_accent">#4D6649</color>
+    <color name="widget_text_terracotta">#B37B64</color>
+    
+    <!-- Chart Bars -->
+    <color name="widget_bar_inactive">#D3DDD0</color>
+    <color name="widget_bar_active">#738A6E</color>
+</resources>
